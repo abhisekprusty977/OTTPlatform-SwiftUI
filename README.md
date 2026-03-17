@@ -32,7 +32,7 @@ CineFilx is a SwiftUI-based iOS application that showcases a movie browsing expe
    - Maintains a dark background and customized navigation bar.
 
 - Search Screen
-   - Implemented in SearchScreenView (SearchPage.swift􀰓).
+   - Implemented in SearchScreenView (SearchPage.swift).
    - Contains a search field and a filtered list of movies powered by a simple local array of Movie models.
    - Each result shows a poster image and text details with AsyncImage.
    - Uses a black background and configures UINavigationBarAppearance for dark styling.
@@ -58,7 +58,7 @@ CineFilx is a SwiftUI-based iOS application that showcases a movie browsing expe
 # Data Models and Constants
 
 - Models
-   - Movie and MovieUpcoming structs (in Model.swift􀰓) are simple Identifiable models used for search and upcoming lists.
+   - Movie and MovieUpcoming structs (in Model.swift) are simple Identifiable models used for search and upcoming lists.
 
 - Constants
    - Constants holds user-facing labels for tabs and headers, plus a collection of image URLs used throughout the UI.
@@ -76,16 +76,16 @@ CineFilx is a SwiftUI-based iOS application that showcases a movie browsing expe
 
 # Notable Files
 
-- CineFilxApp.swift􀰓: App entry point that launches SplashScreen.
-- SplashScreen.swift􀰓: Animated splash screen with timed transition to ContentView.
-- ContentView.swift􀰓: Hosts the TabView and configures the tab bar appearance.
-- HomeView.swift􀰓: Carousel and horizontal lists for featured/trending content.
-- UpcomingScreen.swift􀰓: Async list of upcoming movies with shimmer placeholders.
-- SearchPage.swift􀰓: Search UI with local filter and AsyncImage list.
-- DownloadScreen.swift􀰓: Placeholder downloads page.
-- Model.swift􀰓: Basic Movie and MovieUpcoming models.
-- Constants.swift􀰓: Label strings and poster URL constants.
-- GradientCustomButton.swift􀰓: Reusable gradient button style.
+- CineFilxApp.swift: App entry point that launches SplashScreen.
+- SplashScreen.swift: Animated splash screen with timed transition to ContentView.
+- ContentView.swift: Hosts the TabView and configures the tab bar appearance.
+- HomeView.swift: Carousel and horizontal lists for featured/trending content.
+- UpcomingScreen.swift: Async list of upcoming movies with shimmer placeholders.
+- SearchPage.swift: Search UI with local filter and AsyncImage list.
+- DownloadScreen.swift: Placeholder downloads page.
+- Model.swift: Basic Movie and MovieUpcoming models.
+- Constants.swift: Label strings and poster URL constants.
+- GradientCustomButton.swift: Reusable gradient button style.
 
 # Strengths
 
